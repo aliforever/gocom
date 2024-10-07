@@ -104,7 +104,7 @@ func main() {
 
 					strOut := `package ` + pkg.Name + `
 
-import "github.com/adlindo/gocom/distobj"
+import "github.com/aliforever/gocom/distobj"
 
 type ` + proxyName + ` struct {
 	className string
@@ -162,7 +162,7 @@ func Get` + proxyName + `(prefix ...string) *` + proxyName + ` {
 							continue
 						}
 
-						//params
+						// params
 						for _, param := range astMtd.Params.List {
 
 							paramType := getTypeStr(param.Type)
@@ -173,7 +173,7 @@ func Get` + proxyName + `(prefix ...string) *` + proxyName + ` {
 							}
 						}
 
-						//result
+						// result
 						for i, result := range astMtd.Results.List {
 
 							typeStr := getTypeStr(result.Type)

@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/adlindo/gocom"
+	"github.com/aliforever/gocom"
 )
 
 type JWTCtrl struct {
@@ -50,7 +50,7 @@ func (o *JWTCtrl) postJWT(ctx gocom.Context) error {
 	return ctx.SendError(gocom.NewError(100, "Invalid JWT "+err.Error()))
 }
 
-//-------------------------------------------------------
+// -------------------------------------------------------
 
 var jwtCtrl *JWTCtrl
 var jwtCtrlOnce sync.Once

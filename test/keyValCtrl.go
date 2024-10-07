@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/adlindo/gocom"
+	"github.com/aliforever/gocom"
 )
 
 type KeyValCtrl struct {
@@ -118,7 +118,7 @@ func (o *KeyValCtrl) getKeyValMap(ctx gocom.Context) error {
 	return ctx.SendResult(mapVal)
 }
 
-//-------------------------------------------------
+// -------------------------------------------------
 
 var keyValCtrl *KeyValCtrl
 var keyValCtrlOnce sync.Once

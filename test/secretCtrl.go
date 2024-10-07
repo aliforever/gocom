@@ -3,8 +3,8 @@ package main
 import (
 	"sync"
 
-	"github.com/adlindo/gocom"
-	"github.com/adlindo/gocom/secret"
+	"github.com/aliforever/gocom"
+	"github.com/aliforever/gocom/secret"
 )
 
 type SecretCtrl struct {
@@ -27,7 +27,7 @@ func (o *SecretCtrl) getSecret(ctx gocom.Context) error {
 	return ctx.SendError(gocom.NewError(100, "Error get secret"+err.Error()))
 }
 
-//-------------------------------------------------------
+// -------------------------------------------------------
 
 var secretCtrl *SecretCtrl
 var secretCtrlOnce sync.Once

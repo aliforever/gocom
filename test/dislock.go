@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/adlindo/gocom"
+	"github.com/aliforever/gocom"
 )
 
 var lock *gocom.DistLock
@@ -63,7 +63,7 @@ func (o *DistLockCtrl) releaseLock(ctx gocom.Context) error {
 	return ctx.SendError(gocom.NewError(100, "Error release "+err.Error()))
 }
 
-//-------------------------------------------------------
+// -------------------------------------------------------
 
 var distLockCtrl *DistLockCtrl
 var distLockCtrlOnce sync.Once

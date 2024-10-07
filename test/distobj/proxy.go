@@ -3,7 +3,7 @@ package distobj
 import (
 	"fmt"
 
-	"github.com/adlindo/gocom/distobj"
+	"github.com/aliforever/gocom/distobj"
 )
 
 type TestDistProxy struct {

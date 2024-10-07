@@ -6,10 +6,11 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/adlindo/gocom/config"
 	"github.com/ansrivas/fiberprometheus/v2"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
+
+	"github.com/aliforever/gocom/config"
 )
 
 // FiberContext -------------------------------------------

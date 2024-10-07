@@ -4,7 +4,7 @@ import (
 	"mime/multipart"
 	"sync"
 
-	"github.com/adlindo/gocom/config"
+	"github.com/aliforever/gocom/config"
 )
 
 // ----------------------------------------

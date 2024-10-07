@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/adlindo/gocom"
-	"github.com/adlindo/gocom/test/distobj"
+	"github.com/aliforever/gocom"
+	"github.com/aliforever/gocom/test/distobj"
 )
 
 func main() {

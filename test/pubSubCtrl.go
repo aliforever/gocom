@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/adlindo/gocom"
+	"github.com/aliforever/gocom"
 )
 
 type PubSubCtrl struct {

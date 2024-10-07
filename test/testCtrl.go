@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/adlindo/gocom"
+	"github.com/aliforever/gocom"
 	"github.com/jinzhu/copier"
 )
 
@@ -113,7 +113,7 @@ func (o *TestCtrl) TestPut(ctx gocom.Context) error {
 	return ctx.SendResult(dto)
 }
 
-//-----------------------------------------------
+// -----------------------------------------------
 
 var testCtrl *TestCtrl
 var testCtrlOnce sync.Once

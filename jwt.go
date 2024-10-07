@@ -6,7 +6,7 @@ import (
 
 	"github.com/golang-jwt/jwt/v4"
 
-	"github.com/adlindo/gocom/secret"
+	"github.com/aliforever/gocom/secret"
 )
 
 func NewJWT(data map[string]interface{}, ttl ...time.Duration) (string, error) {
